@@ -2,7 +2,7 @@
 
 // Aplicación de operadores.
 
-int main (){
+int main (void){
 int i= 5, j = 7, k = 3, m1;
 float x = 2.5, z = 1.8, t;
 m1 = ((j % k) / 2) + 1;
