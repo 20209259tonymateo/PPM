@@ -12,7 +12,7 @@ int main (){
 	
 	if (PRE > 1500){
 		NPR = PRE * 1.11;
-		printf("\Nuevo precio: %7.2f", NPR);
+		printf("\nNuevo precio: %7.2f", NPR);
 	}
 	
 	return 0;
