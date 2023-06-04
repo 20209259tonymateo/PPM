@@ -15,24 +15,27 @@ int main(){
 	
 	switch(cat){
 		case 3: 
+			
 		case 4: if (ant >= 5)
-					res = 1;
-				else
-					res = 0;
-				break;
+				res = 1;
+			else
+				res = 0;
+			break;
+			
 		case 2: if (ant >= 7)
-					res = 1;
-				else
-					res = 0;
-				break;
+				res = 1;
+			else
+				res = 0;
+			break;
+			
 		default: res = 0;
 			break;
 	}
 	
 	if (res)
-			printf("\nEl trabajador con clave %d reune las condiciones para el puesto", cla);
+		printf("\nEl trabajador con clave %d reune las condiciones para el puesto", cla);
 	else
-			printf("\nEl trabajador con clave %d no reune las condicones para el puesto", cla);
+		printf("\nEl trabajador con clave %d no reune las condicones para el puesto", cla);
 	
 return 0;
 }
