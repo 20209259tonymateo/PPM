@@ -15,7 +15,7 @@ int main (){
 		fac = 1;
 		for (i = 1; i <= num; i++)
 			fac *= i;
-		printf("\El factorial de %d es %ld", num, fac);
+		printf("\nEl factorial de %d es %ld", num, fac);
 	}
 	else
 		printf("\nError en el dato ingresado");
