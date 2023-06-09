@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /* Suma matrices.
-El programa, al recibir como datos dos arreglos bidimensionales los suma y da su resultado */
+El programa, al recibir como datos dos arreglos bidimensionales del mismo
+tamaño, calcula la suma de ambos y la almacena en un tercer arreglo
+bidimensional. */
 
-const int MAX = 50;
+const int MAX = 3;
 /* Prototipo de funciones. */
 void Lectura(int [][MAX], int, int);
 void Suma(int [][MAX], int [][MAX], int [][MAX], int, int);
@@ -18,14 +20,14 @@ do
 printf("Ingrese el numero de filas de los arreglos: ");
 scanf("%d", &FIL);
 }
-while (FIL> MAX || FIL< 1);
+while (FIL> MAX || FIL< 0);
 /* Se verifica que el número de filas sea correcto. */
 do
 {
 printf("Ingrese el numero de columnas de los arreglos: ");
 scanf("%d", &COL);
 }
-while (COL > MAX || COL < 1);
+while (COL > MAX || COL < 0);
 /* Se verifica que el número de columnas sea correcto. */
 printf("\nLectura del Arreglo MA\n");
 Lectura(MA, FIL, COL);
@@ -43,7 +45,7 @@ int I, J;
 for (I=0; I<F; I++)
 for (J=0; J<C; J++)
 {
-printf("Ingrese el elemento %d %d: ", I+1, J+1);
+printf("Ingrese el elemento %d %d: ", I+0, J+0);
 scanf("%d", &A[I][J]);
 }
 }
@@ -64,4 +66,5 @@ int I, J;
 for (I=0; I<F; I++)
 for (J=0; J<C; J++)
 printf("\nElemento %d %d: %d ", I, J, A[I][J]);
+
 }
