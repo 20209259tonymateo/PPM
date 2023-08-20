@@ -1,0 +1,11 @@
+C:\Users\am358\OneDrive\Escritorio\Rixpert\Hopitalet\bin\Debug\Hopitalet.exe.config
+C:\Users\am358\OneDrive\Escritorio\Rixpert\Hopitalet\bin\Debug\Hopitalet.exe
+C:\Users\am358\OneDrive\Escritorio\Rixpert\Hopitalet\bin\Debug\Hopitalet.pdb
+C:\Users\am358\OneDrive\Escritorio\Rixpert\Hopitalet\obj\Debug\Hopitalet.csproj.AssemblyReference.cache
+C:\Users\am358\OneDrive\Escritorio\Rixpert\Hopitalet\obj\Debug\Hopitalet.csproj.SuggestedBindingRedirects.cache
+C:\Users\am358\OneDrive\Escritorio\Rixpert\Hopitalet\obj\Debug\Hopitalet.Form1.resources
+C:\Users\am358\OneDrive\Escritorio\Rixpert\Hopitalet\obj\Debug\Hopitalet.Properties.Resources.resources
+C:\Users\am358\OneDrive\Escritorio\Rixpert\Hopitalet\obj\Debug\Hopitalet.csproj.GenerateResource.cache
+C:\Users\am358\OneDrive\Escritorio\Rixpert\Hopitalet\obj\Debug\Hopitalet.csproj.CoreCompileInputs.cache
+C:\Users\am358\OneDrive\Escritorio\Rixpert\Hopitalet\obj\Debug\Hopitalet.exe
+C:\Users\am358\OneDrive\Escritorio\Rixpert\Hopitalet\obj\Debug\Hopitalet.pdb
